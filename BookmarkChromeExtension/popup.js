@@ -20,40 +20,7 @@ $(function() {
 
 function myNewFunction(){
 
-  // alert('working?')
-
-  // chrome.bookmarks.getRecent(1, function (result) {
-  //   console.log('result: ', result);
-  // })
-
-
-  // chrome.bookmarks.create({
-  //   title: 'brand new bookmark',
-  //   url: 'https://www.google.com',
-  //   parentId: "1",
-  //   index: 0
-  // })
-  
-
-  //this is the whole thing
-  // chrome.bookmarks.getTree(function (result) {
-  //   console.log('result: ', result);
-  // })
-
-      // "default_popup": "popup.html"
-// 
-
-  
-  //this is the work folder
-  // chrome.bookmarks.getSubTree('326', function (result) {
-  //   console.log('result: ', result);
-  // })
-  
-  // if(add){
-
-
   var mainWorkBookmarks = [];
-  // var add = false;
 
 
 chrome.bookmarks.getSubTree('1', function (result) {
